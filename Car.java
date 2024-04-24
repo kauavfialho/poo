@@ -1,5 +1,3 @@
-package com.mycompany.carro;
-
 public class Car {
     // Class
     public static class Carro {
@@ -80,7 +78,7 @@ public class Car {
     }
 
     public static void main(String[] args) {
-        Carro Carruagem = new Car.Carro("Lexus", "Es300h", 1998, "Verde esmeralda");
+        Carro Carruagem = new Carro("Lexus", "Es300h", 1998, "Verde esmeralda");
         Carruagem.Acelerar(200);
         Carruagem.Frear(120);
         Carruagem.ExibirInformacoes();
